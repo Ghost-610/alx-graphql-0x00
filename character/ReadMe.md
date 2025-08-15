@@ -16,4 +16,3 @@ curl -X POST https://rickandmortyapi.com/graphql \
   -H "Content-Type: application/json" \
   --data '{ "query": "{ character(id: 1) { id name status species type gender } }" }'
 
- /// ** DONE BY ELORM
