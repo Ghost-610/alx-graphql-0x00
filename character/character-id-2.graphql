@@ -1,0 +1,12 @@
+import { gql } from '@apollo/client'; 
+
+{
+  character(id: 2) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
