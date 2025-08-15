@@ -1,5 +1,6 @@
 # character
 
+
 This directory contains GraphQL query files to fetch character details from the Rick and Morty GraphQL API (`https://rickandmortyapi.com/graphql`) using the `character(id: ID!)` field.
 
 ## Files
@@ -14,3 +15,5 @@ You can run each `.graphql` file using curl. For example:
 curl -X POST https://rickandmortyapi.com/graphql \
   -H "Content-Type: application/json" \
   --data '{ "query": "{ character(id: 1) { id name status species type gender } }" }'
+
+ /// ** DONE BY ELORM
