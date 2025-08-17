@@ -1,12 +1,16 @@
 {
-  "data": {
-    "character": {
-      "id": "1",
-      "name": "Rick Sanchez",
-      "status": "Alive",
-      "species": "Human",
-      "type": "",
-      "gender": "Male"
+  "errors": [
+    {
+      "message": "Syntax Error: Expected Name, found <EOF>",
+      "locations": [
+        {
+          "line": 12,
+          "column": 1
+        }
+      ],
+      "extensions": {
+        "code": "GRAPHQL_PARSE_FAILED"
+      }
     }
-  }
+  ]
 }

@@ -17,3 +17,25 @@ Use `curl` to execute a `.graphql` file. For example:
 curl -X POST https://rickandmortyapi.com/graphql \
   -H "Content-Type: application/json" \
   --data '{ "query": "{ character(id: 1) { id name status species type gender } }" }'
+
+
+# Characters Pagination Queries
+
+This directory contains GraphQL queries to fetch a paginated list of characters from the API.
+
+- **characters-page-1.graphql** → Query for page 1
+- **characters-page-1-output.json** → Response for page 1
+- **characters-page-2.graphql** → Query for page 2
+- **characters-page-2-output.json** → Response for page 2
+- **characters-page-3.graphql** → Query for page 3
+- **characters-page-3-output.json** → Response for page 3
+- **characters-page-4.graphql** → Query for page 4
+- **characters-page-4-output.json** → Response for page 4
+
+Each query fetches the following fields:
+- `id`
+- `name`
+- `status`
+- `image`
+
+```
